@@ -27,11 +27,13 @@ for(i=0;i<lista_mail.length;i++){
         document.getElementById("mail-vip").innerHTML+= msg_mail
     }
     
-    else if(utente_mail!==lista_mail[i]){
-        const msg_mail="non sei in lista";
-        document.getElementById("mail-vip").innerHTML+= msg_mail;
-
-    }
+    
    
+
+}
+
+ if(utente_mail!==lista_mail[i]){
+    const msg_mail="non sei in lista";
+    document.getElementById("mail-vip").innerHTML+= msg_mail;
 
 }
